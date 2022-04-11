@@ -1,0 +1,43 @@
+HELP.md
+.gradle
+сборка/
+
+### STS ###
+.apt_generated
+.путь к классу
+.factorypath
+.проект
+.настройки
+.springBeans
+.sts4-кэш
+
+### ИДЕЯ IntelliJ ###
+.идея
+*.iws
+*.iml
+*.ipr
+выход/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS код ###
+.vscode/
+
+### Файлы пакетов ###
+*.jar
+*.война
+*.nar
+*.ухо
+*.zip
+*.tar.gz
+*.rar
+
+### Исключения ###
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/тест/**
