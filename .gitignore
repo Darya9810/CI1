@@ -1,22 +1,22 @@
 HELP.md
 .gradle
-сборка/
+build/
 
 ### STS ###
 .apt_generated
-.путь к классу
+.classpath
 .factorypath
-.проект
-.настройки
+.project
+.settings
 .springBeans
-.sts4-кэш
+.sts4-cache
 
-### ИДЕЯ IntelliJ ###
-.идея
+### IntelliJ IDEA ###
+.idea
 *.iws
 *.iml
 *.ipr
-выход/
+out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,19 +25,19 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 
-### VS код ###
+### VS Code ###
 .vscode/
 
-### Файлы пакетов ###
+### Package Files ###
 *.jar
-*.война
+*.war
 *.nar
-*.ухо
+*.ear
 *.zip
 *.tar.gz
 *.rar
 
-### Исключения ###
+### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
-!**/src/тест/**
+!**/src/test/**
